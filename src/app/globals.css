@@ -60,5 +60,9 @@ body {
 .submit-btn:hover{
   background-color: inherit;
   color: #fff;
-  border: 2px solid white;
+  border-color: greenyellow;
+}
+
+.submit-btn:hover:disabled {
+  border-color: red;
 }
